@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Origenes</a>
+
+        <nav>
+            <a href="#" class="active"> Inicio</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#educacion">Educación</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="img/main.png" alt="Perfil Origenes">
+        </div>
+        <div class="home-content">
+            <h1>Hola, Soy <span>Origenes</span></h1>
+            <h3 class="typing-text">Soy un <span></span></h3>
+            <p>
+                Entrenador de robótica con más de 2 años de experiencia impulsando la educación STEM en niñas de
+                primaria
+                y secundaria. Combino creatividad, tecnología y pedagogía a través de plataformas como LEGO EV3,
+                Scratch,
+                ImagiLabs y Technovation. Actualmente estudio Desarrollo de Software en el ITLA y mi misión es motivar a
+                más
+                jóvenes a enamorarse de las TIC y a construir el futuro con innovación.
+            </p>
+
+            <a href="#galeria" class="btn">Ver más</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="habilidades" id="habilidades" class="hidden">
+            <div data-aos="fade-down">
+                <h3>🛠️ Habilidades Técnicas</h3>
+            </div>
+            <br>
+            <br>
+            <div>
+                <div class="skills-grid" data-aos="fade-down">
+                    <!-- Habilidades Técnicas -->
+                    <div class="skill"><i class="fas fa-robot"></i> Robótica educativa (LEGO EV3),
+                        Mindstorms, y Spike EV3<br><br>
+                        Diseño, ensamblaje y programación de robots educativos para primaria y secundaria.</div>
+                    <div class="skill"><i class="fab fa-python"></i> Programación en Python
+                        (ImagiLabs) <br><br>
+                        Enfocado en enseñanza creativa con plataformas como ImagiLabs.</div>
+                    <div class="skill"><i class="fas fa-puzzle-piece"></i> Programación visual con
+                        Scratch <br><br>Ideal
+                        para introducir a niños/as en lógica computacional de forma intuitiva.</div>
+                    <div class="skill"><i class="fas fa-code"></i> Diseño web (HTML, CSS, JS)
+                        <br><br>Conocimientos
+                        adquiridos en programas de certificación (HTML, CSS,... interfaces)</div>
+                    <div class="skill"><i class="fas fa-book-open"></i> Creación de contenidos
+                        educativos
+                        digital<br><br>Presentaciones, recursos visuales, libros interactivos, y guías prácticas.
+
+                    </div>
+                    <div class="skill"><i class="fa-solid fa-shapes"></i> Planificación y gestión de sesiones educativas
+                        STEM <br><br>Creación de contenidos, currículos, actividades y seguimiento de estudiantes.</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="galeria" id="galeria">
+            <div data-aos="fade-right">
+                <div class="box">
+                    <img src="img/Evidencias/01.jpg" alt="">
+                </div>
+            </div>
+            <div data-aos="fade-up-right">
+                <div class="box">
+                    <img src="img/Evidencias/11.jpg" alt="">
+                </div>
+            </div>
+
+            <div data-aos="fade-down-left">
+                <div class="box">
+                    <img src="img/Evidencias/03.JPG" alt="">
+                </div>
+            </div>
+            <div data-aos="flip-left">
+                <div class="box">
+                    <img src="img/Evidencias/04.JPG" alt="">
+                </div>
+            </div>
+
+            <div data-aos="flip-down">
+                <div class="box">
+                    <img src="img/Evidencias/12.JPG" alt="">
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <section class="education-section" id="educacion" data-aos="zoom-out-up">
+        <h2>Formación Académica</h2>
+        <div class="education-grid">
+            <div class="edu-item">
+                <i class="fas fa-laptop-code"></i>
+                <div>
+                    <h3>Técnico en Desarrollo de Software</h3>
+                    <p>Instituto Tecnológico de Las Américas (ITLA)<br><span class="edu-date">En curso</span></p>
+                </div>
+            </div>
+            <div class="edu-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                    <h3>Bachiller Técnico en Informática</h3>
+                    <p>Politécnico Fundación MIR – La Romana<br><span class="edu-date">Finalizado en 2022</span></p>
+                </div>
+            </div>
+            <div class="edu-item">
+                <i class="fas fa-certificate"></i>
+                <div>
+                    <h3>Certificación en Diseño Web</h3>
+                    <p>Udemy[2020], Code.org[2021]<br><span class="edu-date"></span></p>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    <section class="experience-section" id="experiencia">
+        <h2>Experiencia Profesional</h2>
+        <div class="experience-grid">
+
+            <div class="exp-item">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <div>
+                    <h3>Entrenador de Robótica – The Community Bots, Inc.</h3>
+                    <p><strong>Escuela MIR para Niñas – La Romana</strong><br>
+                        <span class="exp-date">Enero 2023 – Junio 2025</span></p>
+                    <ul>
+                        <li>Coordinación de equipos de robótica de secundaria (LEGO EV3, SPIKE).</li>
+                        <li>Programación con Python mediante la app ImagiLabs.</li>
+                        <li>Participación en talleres, eventos y desafíos educativos tecnológicos.</li>
+                        <li>Apoyo en clases de primaria con robótica y Scratch.</li>
+                        <li>Diseño de actividades, seguimiento estudiantil y reportes.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact-section">
+  <h2>Contacto</h2>
+  <div class="contact-grid">
+
+    <div class="contact-item" id="contacto">
+      <i class="fas fa-envelope"></i>
+      <span>spanuwey@gmail.com</span>
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-phone"></i>
+      <span>(809) 214-7032</span>
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>La Romana, República Dominicana</span>
+    </div>
+
+   
+
+  </div>
+</section>
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
